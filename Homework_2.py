@@ -34,3 +34,12 @@ total_candy_cost = candy_cost * candy_amount
 print ("Each piece of candy costs $", candy_cost)
 print ("You want to buy", candy_amount, "pieces.")
 print ("The total cost is", total_candy_cost)
+
+
+###Age in Dog Years
+human_age = int(input("What is your age?"))
+dog_age = 7
+dog_age_years = human_age * dog_age
+
+print ("You are", human_age, "years old.")
+print ("In dog years, you are", dog_age_years, "years old.")
