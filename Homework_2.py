@@ -27,4 +27,10 @@
 
 
 ### The Candy Store
-candy_cost = int(input("Enter the price of one "))
+candy_cost = int(input("Enter the price of one piece of candy"))
+candy_amount = int(input("How many pieces of candy do you want to buy?"))
+total_candy_cost = candy_cost * candy_amount
+
+print ("Each piece of candy costs $", candy_cost)
+print ("You want to buy", candy_amount, "pieces.")
+print ("The total cost is", total_candy_cost)
