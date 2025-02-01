@@ -43,3 +43,11 @@ dog_age_years = human_age * dog_age
 
 print ("You are", human_age, "years old.")
 print ("In dog years, you are", dog_age_years, "years old.")
+
+
+### The Discount Price
+original_price = int(input("What is the original price of the item?"))
+discount_percentage = int(input("Enter the discount percentage"))
+
+print ("The original price is $", original_price)
+print 
