@@ -44,3 +44,13 @@ if num > 0:
     print("That number is a positive number")
 else: 
     print("That number is a negative")
+
+
+#Weather 72 > is a warm day 72< is a cool day
+temp = int(input("What is the temerature? "))
+if temp >= 72:
+    print("It is a warm day.")
+else: 
+    print("It is a cool day.")
+
+
