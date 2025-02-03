@@ -29,3 +29,11 @@ name = input("What is your name?")
 if name == "Adam":
     print("You have a great name")
 
+### Ask for a number > = < to 10
+num = int(input("Pick a number"))
+if num < 10:
+    print(num,"You selected a number less than 10.")
+if num > 10:
+    print(num,"You selected a number greater than 10.")
+if num == 10:
+    print(num,"You selected a number equal to 10.")
