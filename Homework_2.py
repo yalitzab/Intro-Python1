@@ -48,7 +48,7 @@ print ("In dog years, you are", dog_age_years, "years old.")
 ### The Discount Price
 original_price = int(input("What is the original price of the item?"))
 discount_percentage = float(input("Enter the discount percentage"))
-total_discounted_price = original_price - (original_price % discount_percentage)
+total_discounted_price = original_price - (original_price * discount_percentage)
 
 print ("The original price is $", original_price)
 print ("The discount is", discount_percentage, "%")
