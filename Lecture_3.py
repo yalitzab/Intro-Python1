@@ -19,3 +19,13 @@
 #print("hello world")
 
 ###Ask name and if age is over 18 print you are an adult
+first_name = input("What is your first name? ")
+age = int(input("What's your age? "))
+
+if age >= 18: 
+    print("You are an adult!")
+    
+name = input("What is your name?")
+if name == "Adam":
+    print("You have a great name")
+
