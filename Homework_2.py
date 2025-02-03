@@ -53,3 +53,16 @@ total_discounted_price = original_price - (original_price * discount_percentage)
 print ("The original price is $", original_price)
 print ("The discount is", discount_percentage, "%")
 print ("The discounted price is $", total_discounted_price)
+
+#Second option
+original_price = float(input("What is the original price of the item?"))
+discount = float(input("Enter the discount percentage: (e.g., 20 for 20%)"))
+
+final_price = ((100 - discount) / 100) * original_price
+#discount_amount = (discount / 100) * original_price
+#final_price = original_price - discount_amount
+
+print ("The original price is $", original_price)
+print ("The discount is", discount, "%")
+print ("The discounted price is $", final_price)
+
