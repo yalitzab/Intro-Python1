@@ -37,3 +37,10 @@ if num > 10:
     print(num,"You selected a number greater than 10.")
 if num == 10:
     print(num,"You selected a number equal to 10.")
+
+##else statement
+num = int(input("Give me a number: "))
+if num > 0:
+    print("That number is a positive number")
+else: 
+    print("That number is a negative")
