@@ -54,3 +54,20 @@ else:
     print("It is a cool day.")
 
 
+#### The Discount Price
+##Ask for original dicount price
+original_price = float(input("What is the original price of the item?"))
+give_discount = input("Would you like to apply a discount? (y/n)")
+## Would you like to apply a discount 
+if give_discount == "y":
+    #if yes apply discount
+    discount = float(input("Enter the discount percentage: (e.g., 20 for 20%)"))
+    discount_amount = (discount / 100) * original_price
+    
+else:
+    discount_amount = 0
+
+final_price = original_price - discount_amount
+print("Final price $", final_price)
+
+
