@@ -70,4 +70,19 @@ else:
 final_price = original_price - discount_amount
 print("Final price $", final_price)
 
+##add elif statement    
+if statement:
+    statement goes here
+    statement goes here
+elif statement:
+    statement goes here
+    statement goes here
+elif statement:
+    add more;
+else:
+    statement goes here
+    statement goes here
+print("end of program")
+
+
 
