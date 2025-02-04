@@ -84,5 +84,26 @@ else:
     statement goes here
 print("end of program")
 
+score = int(input("What score did you get on your test?"))
+#90 to 100 is an A
+#80 to 89 is a B
+#70 to 79 is a C
+#60 to 69 is a D 
+#50 or below is an F
 
+if score >= 90:
+    print("You got an A!")
+elif score >= 80:
+    print("You got a B!")
+elif score >= 70:
+    print("You got a C!")
+elif score >= 60:
+    print("You got a D!")   
+else:
+    print("You got an F")
+    
+if score == 100:
+    print("Congrats getting a perfect score!")
+
+print("End program")
 
